@@ -1,0 +1,11 @@
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-md-8">
+            <h2>New Authors</h2>
+            <%- include("../partials/errorMessage.ejs") %>
+            <form action="/authors" method="post">
+                <%- include("./_form_fields.ejs") %>
+            </form>
+        </div>
+    </div>
+</div>
